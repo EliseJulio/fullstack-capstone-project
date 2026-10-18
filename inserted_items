@@ -1,0 +1,26 @@
+Inserted 16 documents into MongoDB
+
+> db.items.insertMany([
+...   { _id: 1, name: 'Birthday Basket', category: 'celebration' },
+...   { _id: 2, name: 'Tea Set', category: 'home' },
+...   { _id: 3, name: 'Travel Mug', category: 'office' },
+...   { _id: 4, name: 'Perfume Gift Box', category: 'beauty' },
+...   { _id: 5, name: 'Desk Organizer', category: 'office' },
+...   { _id: 6, name: 'Succulent Kit', category: 'home' },
+...   { _id: 7, name: 'Custom Photo Frame', category: 'personalized' },
+...   { _id: 8, name: 'Spa Set', category: 'wellness' },
+...   { _id: 9, name: 'Wine Glass Set', category: 'celebration' },
+...   { _id: 10, name: 'Notebook Bundle', category: 'office' },
+...   { _id: 11, name: 'Candles Collection', category: 'home' },
+...   { _id: 12, name: 'Travel Journal', category: 'travel' },
+...   { _id: 13, name: 'Chocolate Gift Hamper', category: 'celebration' },
+...   { _id: 14, name: 'Cozy Throw Blanket', category: 'home' },
+...   { _id: 15, name: 'Smart Water Bottle', category: 'fitness' },
+...   { _id: 16, name: 'Luxury Pen Set', category: 'office' }
+... ])
+{
+  "acknowledged": true,
+  "insertedIds": [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+  ]
+}

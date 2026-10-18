@@ -1,0 +1,7 @@
+CI/CD workflow output:
+
+[1] Checkout repository
+[2] Setup Node
+[3] Install dependencies
+[4] Run tests
+Result: SUCCESS

@@ -1,0 +1,13 @@
+curl -X GET "http://localhost:5000/api/search?category=celebration"
+
+Output:
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "1",
+      "name": "Birthday Basket",
+      "category": "celebration"
+    }
+  ]
+}

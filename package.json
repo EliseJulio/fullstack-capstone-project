@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-capstone-project",
+  "version": "1.0.0",
+  "description": "Capstone project for gift marketplace with Node/Express backend and frontend pages",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --check app.js && node --check db.js && node --check giftRoutes.js && node --check searchRoutes.js && node --check authRoutes.js && node --check sentiment/index.js && node --check frontend/RegisterPage.js && node --check frontend/LoginPage.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "natural": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

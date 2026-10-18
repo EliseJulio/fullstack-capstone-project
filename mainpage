@@ -1,0 +1,11 @@
+curl -X GET http://localhost:5000/api/gifts
+
+Output:
+{
+  "success": true,
+  "data": [
+    { "_id": "1", "name": "Birthday Basket", "category": "celebration" },
+    { "_id": "2", "name": "Tea Set", "category": "home" },
+    { "_id": "3", "name": "Travel Mug", "category": "office" }
+  ]
+}
